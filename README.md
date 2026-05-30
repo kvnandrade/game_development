@@ -96,7 +96,7 @@ Depois, compacte a pasta exportada:
 Compress-Archive -Path Builds/Windows/* -DestinationPath Builds/ValeDosCristais-Windows.zip -Force
 ```
 
-> Observacao: este repositorio contem o projeto completo e o script de build. O ambiente cloud usado para preparar esta entrega nao possui Unity instalado, por isso o executavel Windows deve ser exportado em uma maquina com Unity.
+> Observacao: em ambiente headless/CI, o Unity precisa de uma licenca ativa antes do build. Se aparecer `No valid Unity Editor license found`, gere um arquivo `.alf` com `Unity -quit -batchmode -nographics -createManualActivationFile`, ative-o na pagina de licencas da Unity para obter um `.ulf` e importe com `Unity -quit -batchmode -nographics -manualLicenseFile caminho/Unity.ulf`. Arquivos `.alf` e `.ulf` nao devem ser commitados.
 
 ## Estrutura do repositorio
 
