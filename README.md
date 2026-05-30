@@ -145,18 +145,3 @@ Todos os sprites, prints ilustrativos e arquivos de audio incluidos no projeto f
 
 Nao ha assets externos de terceiros nesta versao.
 
-## Entrega pratica
-
-Para a entrega final academica, inclua:
-
-1. Link deste repositorio GitHub.
-2. ZIP do executavel exportado:
-   - `Builds/ValeDosCristais-Windows.zip`
-3. Este `README.md` com instrucoes, controles, creditos e prints.
-4. Relatorio teorico em PDF.
-5. Video pitch de ate 4 minutos.
-
-## O que ainda falta produzir fora do repositorio
-
-- **Relatorio teorico em PDF** explicando objetivos, mecanicas, decisoes de design, referencias e conclusao.
-- **Video pitch de ate 4 minutos** demonstrando o jogo, controles, fases, HUD, coletaveis, inimigos e processo de build.
